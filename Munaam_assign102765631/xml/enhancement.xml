@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Gadget Website"/>
+	<meta name="keywords" content="Phones, Tablets, Laptops, accessories"/>
+	<meta name="author" content="Munaamullah Khan"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>GRAPE</title>
+
+<link rel ="stylesheet" href="style/style.css"/>
+</head>
+<body>
+	<header>
+  <a href ="index.php"><h1 class="Logo"> GRAPE </h1></a>
+     <nav>
+			<div class="dropdown">
+				<ul class="link">
+					<li class="dropbutton">
+					 	<a href="+">Products</a>
+						<div class="dropdown-content">
+							<ul>
+							<li><a href="phone.php">Phones</a></li>
+							<li><a href="laptop.php">Laptops</a></li>
+							<li><a href="tablet.php">Tablets</a></li>
+							<li><a href="music.php">Music</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a href="enquiry.php">Enquiry</a></li>
+					<li><a href="disclaimer.php">Disclaimer</a></li>
+					<li><a href="enhancement.php">Enhancements</a></li>
+				</ul>
+			</div>
+		</nav>
+		<a class="about" href="aboutme.php">About Me</a>
+	</header>
+	<div class="prime">
+		<div class="banner">
+			<img id="background" src="images/ind.jpg" alt="disclaimer"/>
+			<h1 class="bannertext">Disclaimer</h1>
+		</div>
+	<article>
+		<h2 id="disclaimer">Greetings</h2>
+	 	<p>This website is created mainly for educational and non-commercial use only. It is a partial fulfilment for completion of unit COS10011 - Creating Web Applications offered in Swinburne University of Technology, Sarawak Campus for Semester 1,2022.</p>
+		<p>The web-master and author(s) do not represent the business entity.</p>
+		<p>The content of the pages of this website might be out-dated or inaccurate,thus,the author(s) and web-master does not take any responsibility for incorrect information disseminate or cited from this website.</p>
+		<p>If you believe that information of any kind on this website is an infringement of copyright in material in which you either own copyright or are authorized to exercise the rights of a copyright owner, kindly contact the web-master (102765631@students.swinburne.edu.my) for removal.</p>
+	</article>	  
+ </div>
+  <!--footer-->	
+	<footer>
+	<div class="foot-content">
+		
+		<div class="navbox">
+			<h2> Navigator</h2> 
+				<ul>
+					<li><a href="phone.php">Phones</a></li>
+					<li><a href="laptop.php">Laptops</a></li>
+					<li><a href="tablet.php">Tablets</a></li>
+					<li><a href="music.php">Music</a></li>
+					<li><a href="enquiry.php">Enquiry</a></li>
+					<li><a href="disclaimer.php">Disclaimer</a></li>
+					<li><a href="enhancement.php">Enhancements</a>	</li>
+					<li><a href="index.php"> Home</a></li>
+				</ul>
+				
+			</div>
+			<div class="leftside">
+				<h2>About Us</h2>
+				<p>GRAPE is the best tech and gadget company in Asia keeping customers updated with the future and latest technology. We deal in flagship mobile phones,laptops,talets and different music accessories.</p>
+				<h3>"THE POWER TO BE THE BEST"</h3>
+				<h3>Provide the Best Experience within a Single Touch.</h3>
+			</div>
+		<div class="rightside">
+			<h2>Acknowledgements</h2> 
+			<h3>All Third Party Content Used</h3>
+			<ol>
+			<li><a class="button" href="https://youtube.com" target="_blank">Youtube</a></li>
+				<li><a class="button" href="https://www.apple.com" target="_blank">Apple</a></li>
+				<li><a class="button" href="https://www.gsmarena.com" target="_blank">Gsmarena</a></li>
+				<li><a class="button" href="http://w3schools.com" target="_blank">w3schools</a></li>
+				<li><a class="button" href="https://mistore.pk" target="_blank">MiStore</a></li>
+				<li><a class="button" href="https://www.hp.com" target="_blank">HP</a></li>
+				</ol>
+			</div>
+		</div>	
+	
+		<div class="footer-bottom">
+			<p>Designed By Munaamullah Khan<a href="mailto:102765631@students.swinburne.edu.my">102765631@students.swinburne.edu.my </a></p>
+		</div>
+	</footer>
+</body>
+</html>
